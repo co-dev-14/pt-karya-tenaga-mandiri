@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Briefcase } from 'lucide-react';
 import { PageRoute } from '../types';
-import logo from 'logo.png';
+import logo from '../logo.png';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
