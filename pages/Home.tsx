@@ -91,7 +91,7 @@ const Home: React.FC = () => {
               <div className="text-blue-200 text-sm font-medium uppercase tracking-wider">PMI Diberangkatkan</div>
             </div>
             <div className="p-4">
-              <div className="text-4xl font-bold mb-2 text-orange-400">6</div>
+              <div className="text-4xl font-bold mb-2 text-orange-400">4</div>
               <div className="text-blue-200 text-sm font-medium uppercase tracking-wider">Negara Tujuan</div>
             </div>
             <div className="p-4">
