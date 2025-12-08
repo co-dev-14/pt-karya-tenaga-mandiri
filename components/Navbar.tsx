@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Briefcase } from 'lucide-react';
 import { PageRoute } from '../types';
+import logo from '../assets/logo.png';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,7 +24,7 @@ const Navbar: React.FC = () => {
           {/* Logo */}
           <div className="flex items-center gap-2">
             <div className="bg-white p-1 rounded-md">
-              
+              <img src={logo} alt="Logo" className="w-10 h-10 object-contain" />
             </div>
             <span className="font-bold text-lg tracking-wide">PT. KARYA TENAGA MANDIRI</span>
           </div>
