@@ -12,10 +12,6 @@ const Footer: React.FC = () => {
             <p className="text-sm leading-relaxed mb-4">
               Perusahaan Penempatan Pekerja Migran Indonesia (P3MI) resmi dan terpercaya. Kami berdedikasi menempatkan PMI berkualitas ke pasar kerja global dengan perlindungan maksimal.
             </p>
-            <p className="text-xs text-gray-500 mb-4">
-              Izin SIP3MI No: KEP. 123/MEN/2013<br/>
-              Terdaftar di BP2MI & Kemnaker RI
-            </p>
             <div className="flex space-x-4">
               <a href="#" className="hover:text-white transition"><Facebook size={20} /></a>
               <a href="#" className="hover:text-white transition"><Instagram size={20} /></a>
@@ -40,15 +36,15 @@ const Footer: React.FC = () => {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-2 text-blue-500 shrink-0" />
-                <span>Gedung Graha Mandiri Lt. 5, Jl. Sudirman No. 123, Jakarta Selatan, 12190</span>
+                <span>Jl Raya Centex No 71, Ciracas, Jakarta Timur</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-2 text-blue-500 shrink-0" />
-                <span>+62 21 5555 8888</span>
+                <span>+62 857-1627-2011</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-2 text-blue-500 shrink-0" />
-                <span>info@karyatenagamandiri.co.id</span>
+                <span>info@ptktm.co.id</span>
               </li>
             </ul>
           </div>
