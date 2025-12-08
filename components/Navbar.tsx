@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
           {/* Logo */}
           <div className="flex items-center gap-2">
             <div className="bg-white p-1 rounded-md">
-              <Briefcase className="h-6 w-6 text-blue-900" />
+              
             </div>
             <span className="font-bold text-lg tracking-wide">PT. KARYA TENAGA MANDIRI</span>
           </div>
