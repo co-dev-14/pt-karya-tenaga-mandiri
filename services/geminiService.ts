@@ -13,11 +13,20 @@ export const generateResponse = async (userMessage: string): Promise<string> => 
     const response = await ai.models.generateContent({
       model: "gemini-2.5-flash",
 
-systemInstruction: {
-  role: "system",
-  parts: [
-    {
-      text: `
+      contents: [
+        {
+          role: "user",
+          parts: [{ text: userMessage }]
+        }
+      ],
+
+      config: {
+        temperature: 0.6,
+        systemInstruction: {
+          role: "system",
+          parts: [
+            {
+              text: `
 Anda adalah Asisten Virtual Resmi PT. Karya Tenaga Mandiri. 
 Gaya bicara Anda harus sangat ramah, lembut, menenangkan, dan sabar, seperti kakak pembimbing yang baik hati namun tetap profesional.
 
@@ -66,19 +75,9 @@ FORMAT RESPONS:
 
 Anda adalah wajah ramah PT. Karya Tenaga Mandiri. Pastikan setiap jawaban membuat CPMI merasa diprioritaskan, dihargai, dan tidak sendirian.
 `
-    }
-  ]
-},
-      
-      contents: [
-        {
-          role: "user",
-          parts: [{ text: userMessage }]
+            }
+          ]
         }
-      ],
-
-      config: {
-        temperature: 0.6
       }
     });
 
