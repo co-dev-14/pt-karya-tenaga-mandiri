@@ -50,9 +50,7 @@ const Contact: React.FC = () => {
                   <div>
                     <h4 className="font-semibold text-gray-900">Alamat Kantor</h4>
                     <p className="text-gray-600 text-sm mt-1 leading-relaxed">
-                      Gedung Graha Mandiri Lt. 5<br/>
-                      Jl. Jend. Sudirman Kav. 123<br/>
-                      Jakarta Selatan, DKI Jakarta 12190
+                      Jl Raya Centex No 71, Ciracas, Jakarta Timur
                     </p>
                   </div>
                 </div>
@@ -64,8 +62,7 @@ const Contact: React.FC = () => {
                   <div>
                     <h4 className="font-semibold text-gray-900">Telepon</h4>
                     <p className="text-gray-600 text-sm mt-1">
-                      +62 21 5555 8888 (Hunting)<br/>
-                      +62 812 3456 7890 (WhatsApp)
+                      +62 857-1627-2011
                     </p>
                   </div>
                 </div>
@@ -77,18 +74,10 @@ const Contact: React.FC = () => {
                   <div>
                     <h4 className="font-semibold text-gray-900">Email</h4>
                     <p className="text-gray-600 text-sm mt-1">
-                      info@karyatenagamandiri.co.id<br/>
-                      marketing@karyatenagamandiri.co.id
+                      info@ptktm.id
                     </p>
                   </div>
                 </div>
-              </div>
-            </div>
-
-            {/* Map Placeholder */}
-            <div className="h-64 bg-gray-200 rounded-2xl overflow-hidden relative">
-              <div className="absolute inset-0 flex items-center justify-center text-gray-500 bg-gray-100">
-                 <p>Peta Lokasi (Google Maps Embed)</p>
               </div>
             </div>
           </div>
